@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<title>Магазин сухих кормов для кошек</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<link rel="icon" href="../img/logo2.png" type="image/png">
+	<!-- <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/> -->
+	<link rel="stylesheet" href="css/style.min.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<div class="wrapper">
+		<header id="header" class="header lock-padding">
+	<div class="header__content">
+		<div class="header__top top-header">
+			<div class="top-header__container _container">
+				<div class="top-header__logo">
+					<a href="#"><img src="img/logo.png" alt="" class="logo-image"></a>
+					<a href="#" class="logo-name">catshop</a>
+				</div>
+				<div data-da=".header__top, 479.98, last" class="top-header__search">
+					<form action="" class="search-header">
+						<input autocomplete="off" type="text" name="form[]" data-error="Ошибка" placeholder="Поиск" class="search-header__input">
+						<button type="submit" class="search-header__button"></button>
+					</form>
+				</div>
+				<div data-da=".header__body, 767.98,0" class="top-header__actions actions-header">
+					<a href="" class="actions-header__user"><span>Войти</span></a>
+					<a href="" class="actions-header__heart"><span>7</span></a>
+					<a href="" class="actions-header__cart"><span>10</span></a>
+				</div>
+			</div>
+		</div>
+		<div data-da=".header__top, 767.98, first" class="header__body body-header">
+			<nav hidden class="menu-burger">
+				<div class="menu__icon icon-menu">
+					<span></span>
+					<span></span>
+					<span></span>
+				</div>
+				<div class="menu__body-header"></div>
+			</nav>
+			<div data-da=".menu__body-header, 767.98, 1" class="body-header__container _container">
+				<div class="body-header__menu menu-header">
+					<nav class="menu__body body__menu">
+						<ul class="menu__list">
+							<li><a data-goto=".open" href="#" class="menu__link">Бренды</a></li>
+							<li><a data-goto=".calc" href="#" class="menu__link">Возраст</a></li>
+							<li><a data-goto=".faq" href="#" class="menu__link">Порода</a></li>
+							<li><a data-goto=".form" href="#" class="menu__link">Магазины</a></li>
+							<li><a data-goto=".form" href="#" class="menu__link">Помощь 24/7</a></li>
+						</ul>
+						<div class="menu__button"><a href="#" class="button">Бесплатная доставка</a></div>
+					</nav>
+				</div>
+			</div>
+		</div>
+	</div>
+</header>
+		<main class="page">
+			<div class="page__container _container">
+				<div data-da=".settings__body-header, 767.98, 1" class="catalog__container">
+					<div data-spollers class="catalog">
+						<div class="catalog__filter">Фильтры<span class="settings__icon2">	</span></div>
+						<div class="catalog__items">
+							<div class="catalog__item">
+								<button type="button" data-spoller class="catalog__spoiler">Бренд</button>
+								<ul class="catalog__list">
+									<li><a href="" class="catalog__link">Royal Canin</a></li>
+									<li><a href="" class="catalog__link">Perfect Fit</a></li>
+									<li><a href="" class="catalog__link">Pro Plan</a></li>
+									<li><a href="" class="catalog__link">Whiskas</a></li>
+								</ul>
+							</div>
+							<div class="catalog__item">
+								<button type="button" data-spoller class="catalog__spoiler">Возраст</button>
+								<ul class="catalog__list">
+									<li><a href="" class="catalog__link">Взрослые (1-6 лет)</a></li>
+									<li><a href="" class="catalog__link">Для всех стадий жизни</a></li>
+									<li><a href="" class="catalog__link">Котята (до 1 года)/Беременные кошки</a></li>
+									<li><a href="" class="catalog__link">Пожилые (7+)</a></li>
+								</ul>
+							</div>
+							<div class="catalog__item">
+								<button type="button" data-spoller class="catalog__spoiler">Ингредиенты</button>
+								<ul class="catalog__list">
+									<li><a href="" class="catalog__link">Баранина</a></li>
+									<li><a href="" class="catalog__link">Говядина</a></li>
+									<li><a href="" class="catalog__link">Индейка</a></li>
+									<li><a href="" class="catalog__link">Кукуруза</a></li>
+									<li><a href="" class="catalog__link">Курица</a></li>
+									<li><a href="" class="catalog__link">Лосось, семга, форель</a></li>
+									<li><a href="" class="catalog__link">Пшеница</a></li>
+									<li><a href="" class="catalog__link">Рис белый</a></li>
+								</ul>
+							</div>
+							<div class="catalog__item">
+								<button type="button" data-spoller class="catalog__spoiler">Цена, ₽</button>
+								<div class="calc">
+									<form action="#" id="form2" class="form__calc">
+										<div class="calc__body">
+											<div class="calc__item">
+												<div class="form__inputs">
+													<input id="formNumber" type="text" class="form__input input__calc"
+														name="username">
+													<input id="formNumber2" type="text" class="form__input input__calc"
+														name="username">
+												</div>
+												<div class="price-calc"></div>
+											</div>
+										</div>
+									</form>
+								</div>
+							</div>
+							<div class="catalog__item">
+								<button type="button" data-spoller class="catalog__spoiler">Вес, кг</button>
+								<div class="calc">
+									<form action="#" id="form2" class="form__calc">
+										<div class="calc__body">
+											<div class="calc__item">
+												<div class="form__inputs">
+													<input id="formNumber3" type="text" class="form__input input__calc"
+														name="username2">
+													<input id="formNumber4" type="text" class="form__input input__calc"
+														name="username2">
+												</div>
+												<div class="price-calc2"></div>
+											</div>
+										</div>
+									</form>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<section class="page__product-cards product-cards">
+					<div class="product-cards__header header-product-cards">
+						<div class="header-product-cards__container _container">
+							<div class="header-product-cards__title">
+								<h1>Магазин сухих кормов для кошек</h1><span>9 товаров</span>
+							</div>
+							<div class="category__container">
+								<select name="sources" id="sources" class="custom-select sources"
+									placeholder="Популярные">
+									<option value="categoryOne">Популярные</option>
+									<option value="categoryTwo">Новинки</option>
+									<option value="categoryThree">Сначала дешёвые</option>
+									<option value="categoryFour">Сначала дорогие</option>
+									<option value="categoryFive">По размерку скидки</option>
+									<option value="categorySix">Высокий рейтинг</option>
+								</select>
+								<nav hidden class="menu-settings">
+									<div class="settings__icon icon-settings">
+										<img src="img/settings.svg" alt="">
+									</div>
+									<div class="settings__body-header"></div>
+								</nav>
+							</div>
+						</div>
+					</div>
+					<div class="product-cards__container">
+						<div href="#" class="product-cards__item item-product-cards">
+							<a href="index1.html" class="item-product-cards__link">
+								<div class="item-product-cards__image">
+									<img src="img/slide1.png" alt="Картинка">
+								</div>
+								<div class="item-product-cards__rating">
+									<img src="img/Star.svg" alt="Рейтинг">
+									<div class="rating-number">4.9</div>
+								</div>
+								<div class="item-product-cards__text">Сухой корм для кошек Royal Canin Sterilised 37
+									стерилизованных, с...</div>
+								<div class="item-product-cards__price">1 603 ₽</div>
+							</a>
+							<div class="item-product-cards__button button">
+								<a href="">В корзину</a>
+							</div>	
+						</div>
+						<div href="#" class="product-cards__item item-product-cards">
+							<a href="index1.html" class="item-product-cards__link">
+								<div class="item-product-cards__image">
+									<img src="img/slide1.png" alt="Картинка">
+								</div>
+								<div class="item-product-cards__rating">
+									<img src="img/Star.svg" alt="Рейтинг">
+									<div class="rating-number">4.9</div>
+								</div>
+								<div class="item-product-cards__text">Сухой корм для кошек Royal Canin Sterilised 37
+									стерилизованных, с...</div>
+								<div class="item-product-cards__price">1 603 ₽</div>
+							</a>
+							<div class="item-product-cards__button button">
+								<a href="">В корзину</a>
+							</div>	
+						</div>
+						<div href="#" class="product-cards__item item-product-cards">
+							<a href="index1.html" class="item-product-cards__link">
+								<div class="item-product-cards__image">
+									<img src="img/slide1.png" alt="Картинка">
+								</div>
+								<div class="item-product-cards__rating">
+									<img src="img/Star.svg" alt="Рейтинг">
+									<div class="rating-number">4.9</div>
+								</div>
+								<div class="item-product-cards__text">Сухой корм для кошек Royal Canin Sterilised 37
+									стерилизованных, с...</div>
+								<div class="item-product-cards__price">1 603 ₽</div>
+							</a>
+							<div class="item-product-cards__button button">
+								<a href="">В корзину</a>
+							</div>	
+						</div>
+						<div href="#" class="product-cards__item item-product-cards">
+							<a href="index1.html" class="item-product-cards__link">
+								<div class="item-product-cards__image">
+									<img src="img/slide1.png" alt="Картинка">
+								</div>
+								<div class="item-product-cards__rating">
+									<img src="img/Star.svg" alt="Рейтинг">
+									<div class="rating-number">4.9</div>
+								</div>
+								<div class="item-product-cards__text">Сухой корм для кошек Royal Canin Sterilised 37
+									стерилизованных, с...</div>
+								<div class="item-product-cards__price">1 603 ₽</div>
+							</a>
+							<div class="item-product-cards__button button">
+								<a href="">В корзину</a>
+							</div>	
+						</div>
+						<div href="#" class="product-cards__item item-product-cards">
+							<a href="index1.html" class="item-product-cards__link">
+								<div class="item-product-cards__image">
+									<img src="img/slide1.png" alt="Картинка">
+								</div>
+								<div class="item-product-cards__rating">
+									<img src="img/Star.svg" alt="Рейтинг">
+									<div class="rating-number">4.9</div>
+								</div>
+								<div class="item-product-cards__text">Сухой корм для кошек Royal Canin Sterilised 37
+									стерилизованных, с...</div>
+								<div class="item-product-cards__price">1 603 ₽</div>
+							</a>
+							<div class="item-product-cards__button button">
+								<a href="">В корзину</a>
+							</div>	
+						</div>
+						<div href="#" class="product-cards__item item-product-cards">
+							<a href="index1.html" class="item-product-cards__link">
+								<div class="item-product-cards__image">
+									<img src="img/slide1.png" alt="Картинка">
+								</div>
+								<div class="item-product-cards__rating">
+									<img src="img/Star.svg" alt="Рейтинг">
+									<div class="rating-number">4.9</div>
+								</div>
+								<div class="item-product-cards__text">Сухой корм для кошек Royal Canin Sterilised 37
+									стерилизованных, с...</div>
+								<div class="item-product-cards__price">1 603 ₽</div>
+							</a>
+							<div class="item-product-cards__button button">
+								<a href="">В корзину</a>
+							</div>	
+						</div>
+						<div href="#" class="product-cards__item item-product-cards">
+							<a href="index1.html" class="item-product-cards__link">
+								<div class="item-product-cards__image">
+									<img src="img/slide1.png" alt="Картинка">
+								</div>
+								<div class="item-product-cards__rating">
+									<img src="img/Star.svg" alt="Рейтинг">
+									<div class="rating-number">4.9</div>
+								</div>
+								<div class="item-product-cards__text">Сухой корм для кошек Royal Canin Sterilised 37
+									стерилизованных, с...</div>
+								<div class="item-product-cards__price">1 603 ₽</div>
+							</a>
+							<div class="item-product-cards__button button">
+								<a href="">В корзину</a>
+							</div>	
+						</div>
+						<div href="#" class="product-cards__item item-product-cards">
+							<a href="index1.html" class="item-product-cards__link">
+								<div class="item-product-cards__image">
+									<img src="img/slide1.png" alt="Картинка">
+								</div>
+								<div class="item-product-cards__rating">
+									<img src="img/Star.svg" alt="Рейтинг">
+									<div class="rating-number">4.9</div>
+								</div>
+								<div class="item-product-cards__text">Сухой корм для кошек Royal Canin Sterilised 37
+									стерилизованных, с...</div>
+								<div class="item-product-cards__price">1 603 ₽</div>
+							</a>
+							<div class="item-product-cards__button button">
+								<a href="">В корзину</a>
+							</div>	
+						</div>
+						<div href="#" class="product-cards__item item-product-cards">
+							<a href="index1.html" class="item-product-cards__link">
+								<div class="item-product-cards__image">
+									<img src="img/slide1.png" alt="Картинка">
+								</div>
+								<div class="item-product-cards__rating">
+									<img src="img/Star.svg" alt="Рейтинг">
+									<div class="rating-number">4.9</div>
+								</div>
+								<div class="item-product-cards__text">Сухой корм для кошек Royal Canin Sterilised 37
+									стерилизованных, с...</div>
+								<div class="item-product-cards__price">1 603 ₽</div>
+							</a>
+							<div class="item-product-cards__button button">
+								<a href="">В корзину</a>
+							</div>	
+						</div>
+					</div>
+					<div class="pagination">
+						<a href="#" class="pagination__item pagination__item-selected">1</a>
+						<a href="#" class="pagination__item">2</a>
+						<a href="#" class="pagination__item">3</a>
+						<a href="#" class="pagination__item">4</a>
+					</div>
+				</section>
+			</div>
+		</main>
+		<footer class="footer">
+	<div class="footer__body body-footer">
+		<div class="body-footer__container _container">
+			<div class="body-footer__contacts contacts-body-footer">
+				<div class="contacts-body-footer__item">
+					<img class="contacts-body-footer__image" src="img/Phone.svg" alt="">
+					<a href="tel:+78005553535" class="contacts-body-footer__text">+8 (800) 555-35-35</a>
+				</div>
+				<div class="contacts-body-footer__item">
+					<img class="contacts-body-footer__image" src="img/Email.svg" alt="">
+					<a href="mailto:catshop@mail.ru" class="contacts-body-footer__text">Напишите нам</a>
+				</div>
+				<div class="contacts-body-footer__item">
+					<img class="contacts-body-footer__image" src="img/Card.svg" alt="">
+					<a href="#" class="contacts-body-footer__text">Оплатите заказ онлайн</a>
+				</div>
+			</div>
+			<div class="body-footer__social social-body-footer">
+				<div class="social-body-footer__item">
+					<a href="" class="social-body-footer__image"><img src="img/telegram.png" alt=""></a>
+					<a href="" class="social-body-footer__image"><img src="img/youtube.png" alt=""></a>
+					<a href="" class="social-body-footer__image"><img src="img/vk.png" alt=""></a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="footer__bottom bottom-footer">
+		<div class="bottom-footer__container _container">
+			<div class="bottom-footer__copy">© 2022</div>
+			<div class="bottom-footer__links">
+				<a href="" class="bottom-footer__link">Политика конфиденциальности</a>
+				<a href="" class="bottom-footer__link">Пользовательское соглашение</a>
+			</div>
+		</div>
+	</div>
+</footer>
+	</div>
+	<div id="popup" class="popup">
+	<div class="popup__body">
+		<div class="popup__content">
+			<a href="#header" class="popup__close close-popup">X</a>
+			<div class="popup__title">Это модальное окно</div>
+			<div class="popup__text">
+				Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illo iste eligendi ab in omnis pariatur at
+				aspernatur sunt et eaque!
+			</div>
+		</div>
+	</div>
+</div>
+	<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+<script src="js/app.min.js"></script>
+
+</body>
+
+</html>
